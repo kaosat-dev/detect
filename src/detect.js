@@ -1,8 +1,8 @@
 (function () {
   // Hueristics.
-  var isNode = typeof process !== 'undefined' && process.versions && process.versions.node;
+  var isNode = typeof process !== 'undefined' && process.versions && !!process.versions.node;
   var isBrowser = typeof window !== 'undefined';
-  var isModule = typeof module !== 'undefined' && module.exports;
+  var isModule = typeof module !== 'undefined' && !!module.exports;
 
   // Export.
   var exports = (isModule || (this.detect = {}));

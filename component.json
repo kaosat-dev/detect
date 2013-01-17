@@ -2,7 +2,7 @@
   "name": "detect",
   "repo": "compositejs/detect",
   "description": "Detect your environment: Node.js, Browser, and CommonJS.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "keywords": ["detect", "node", "browser"],
   "dependencies": {},
   "development": {},
