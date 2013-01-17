@@ -1,0 +1,24 @@
+{
+  "name": "composite-detect",
+  "version": "0.0.1",
+  "description": "Detect your environment: Node.js, Browser, and CommonJS.",
+  "main": "src/detect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compositejs/detect.git"
+  },
+  "keywords": [
+    "node",
+    "browser",
+    "module",
+    "commonjs",
+    "detect",
+    "environment"
+  ],
+  "author": "Tim Cameron Ryan",
+  "license": "MIT",
+  "readmeFilename": "Readme.md"
+}
