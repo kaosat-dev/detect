@@ -1,6 +1,6 @@
 {
   "name": "composite-detect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Detect your environment: Node.js, Browser, and CommonJS.",
   "main": "src/detect.js",
   "scripts": {
