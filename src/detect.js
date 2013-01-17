@@ -4,11 +4,9 @@
   var isBrowser = typeof window !== 'undefined';
   var isModule = typeof module !== 'undefined' && !!module.exports;
 
-  console.log(isNode, isBrowser, isModule);
-
   // Export.
-  var exports = (isModule ? exports : (this.detect = {}));
-  exports.isNode = isNode;
-  exports.isBrowser = isBrowser;
-  exports.isModule = isModule;
+  var detect = (isModule ? exports : (this.detect = {}));
+  detect.isNode = isNode;
+  detect.isBrowser = isBrowser;
+  detect.isModule = isModule;
 }).call(this);
