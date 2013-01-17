@@ -1,7 +1,7 @@
 
-build: components src/EventEmitter.js
+build: components src/detect.js
 	@component build --dev
-	@component build --standalone EventEmitter -o lib -n EventEmitter
+	@component build --standalone detect -o lib -n detect
 
 components: component.json
 	@component install --dev

@@ -1,18 +1,18 @@
-# compositejs/eventemitter
+# compositejs/detect
 
-API compatible port of Node.js' EventEmitter to the browser via Component.
+Detect your environment: Node.js, Browser, and CommonJS.
 
 ## Installation
 
-**Via `component`:** `$ component install compositejs/eventemitter`
+**Via `component`:** `$ component install compositejs/detect`
 
-**Standalone:** Download `lib/EventEmitter.js` and look for the global `EventEmitter` class.
+**Standalone:** Download `lib/detect.js` and look for the global `detect` object.
 
 ## API
 
-    var EventEmitter = require('EventEmitter');
-
-See [http://nodejs.org/api/events.html](http://nodejs.org/api/events.html).
+    detect.isBrowser == true / false
+    detect.isNode == true / false
+    detect.isModule == true / false
 
 ## License
 

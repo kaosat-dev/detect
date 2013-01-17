@@ -1,13 +1,13 @@
 {
-  "name": "EventEmitter",
-  "repo": "compositejs/eventemitter",
-  "description": "API compatible port of Node.js' EventEmitter.",
+  "name": "detect",
+  "repo": "compositejs/detect",
+  "description": "Detect your environment: Node.js, Browser, and CommonJS.",
   "version": "0.0.1",
-  "keywords": ["event", "emitter", "eventemitter", "node", "composite", "component"],
+  "keywords": ["detect", "node", "browser"],
   "dependencies": {},
   "development": {},
   "license": "MIT",
   "scripts": [
-    "src/EventEmitter.js"
+    "src/detect.js"
   ]
 }
